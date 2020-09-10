@@ -7,7 +7,7 @@ package 链表;
  * @create: 2020-09-03 23:46
  */
 public class _237_删除链表中的节点 {
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
@@ -22,5 +22,7 @@ public class _237_删除链表中的节点 {
         node.val = node.next.val;
         node.next = node.next.next;
     }
+
+
 
 }

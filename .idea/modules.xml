@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/_03_线性表/_03_线性表.iml" filepath="$PROJECT_DIR$/_03_线性表/_03_线性表.iml" />
       <module fileurl="file://$PROJECT_DIR$/_04_链表/_04_链表.iml" filepath="$PROJECT_DIR$/_04_链表/_04_链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" filepath="$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" filepath="$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/习题/习题.iml" filepath="$PROJECT_DIR$/习题/习题.iml" />
     </modules>
