@@ -1,0 +1,14 @@
+
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ß±¯ûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(¯Ú¥‘şÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(„ø
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÃÍËøÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ
+R	java:S106"9Replace this use of System.out or System.err by a logger.(µœg8—àıªÉ.
+]
+java:S2184"BCast one of the operands of this division operation to a "double".(ğªšª8½›¨ÌÉ.
+R
+java:S1128"2Remove this unused import 'java.util.WeakHashMap'.(Ãê‹ûùÿÿÿÿ8½›¨ÌÉ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8½›¨ÌÉ.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8½›¨ÌÉ.

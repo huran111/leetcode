@@ -10,19 +10,29 @@
         <module name="_21_Java增强" />
         <module name="_01映射" />
         <module name="_03_线性表" />
-        <module name="_28_zookeeper" />
         <module name="习题" />
         <module name="_04_链表" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="_01映射" target="1.5" />
-      <module name="_02_复杂度" target="1.5" />
-      <module name="_03_线性表" target="1.5" />
-      <module name="_04_链表" target="6" />
-      <module name="_21_Java增强" target="6" />
-      <module name="_28_zookeeper" target="1.5" />
-      <module name="习题" target="1.5" />
+      <module name="_01映射" target="8" />
+      <module name="_02_复杂度" target="8" />
+      <module name="_03_线性表" target="8" />
+      <module name="_04_链表" target="8" />
+      <module name="_21_Java增强" target="8" />
+      <module name="习题" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="_01映射" options="" />
+      <module name="_02_复杂度" options="" />
+      <module name="_03_线性表" options="" />
+      <module name="_04_链表" options="" />
+      <module name="_21_Java增强" options="" />
+      <module name="leetcode" options="" />
+      <module name="习题" options="" />
+    </option>
   </component>
 </project>

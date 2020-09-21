@@ -1,0 +1,6 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+v
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(œŒ•Õıÿÿÿÿ
+^
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÿË¥ü

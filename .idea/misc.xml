@@ -12,9 +12,8 @@
         <option value="$PROJECT_DIR$/_21_Java增强/pom.xml" />
         <option value="$PROJECT_DIR$/_04_链表/pom.xml" />
         <option value="$PROJECT_DIR$/习题/pom.xml" />
-        <option value="$PROJECT_DIR$/_28_zookeeper/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_191" project-jdk-type="JavaSDK" />
 </project>

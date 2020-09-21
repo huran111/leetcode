@@ -1,0 +1,6 @@
+
+_
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ÿ±ÃÛ8®Ş×Ç.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­÷›8÷³¸×Ç.
+€
+java:S4165"cRemove this useless assignment; "list1" already holds the assigned value along all execution paths.(‹Ô§·8¥êà×Ç.

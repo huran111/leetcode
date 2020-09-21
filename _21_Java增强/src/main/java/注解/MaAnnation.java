@@ -1,6 +1,5 @@
 package 注解;
 
-import javax.annotation.Resource;
 import java.lang.annotation.*;
 
 @Inherited
