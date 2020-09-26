@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/_04_链表/pom.xml" />
         <option value="$PROJECT_DIR$/习题/pom.xml" />
         <option value="$PROJECT_DIR$/_28_zookeeper/pom.xml" />
+        <option value="$PROJECT_DIR$/pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/disruptor/pom.xml" />
       </list>
     </option>
   </component>
