@@ -3,6 +3,10 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../" />
+    <option name="OTHER_OPTIONS" value="-encoding utf-8 -charset utf-8" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,6 +16,7 @@
         <option value="$PROJECT_DIR$/_21_Java增强/pom.xml" />
         <option value="$PROJECT_DIR$/_04_链表/pom.xml" />
         <option value="$PROJECT_DIR$/习题/pom.xml" />
+        <option value="$PROJECT_DIR$/_28_zookeeper/pom.xml" />
       </list>
     </option>
   </component>

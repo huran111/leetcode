@@ -38,6 +38,11 @@ public class Java8ApiTest4 {
         System.out.println(s);
         transactions.stream().filter(t->"A".equals(t.getTrader().getCity())).map(Transaction::getValue).forEach(System.out::println);
         //所有交易中，高的交易额是多少 Optional
+        //数值流
+        final Long collect3 = transactions.stream().collect(Collectors.counting());
+        final long count = transactions.stream().count();
+        System.out.println(count);
+        System.out.println(collect3);
 
     }
 

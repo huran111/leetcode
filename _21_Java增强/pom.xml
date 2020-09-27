@@ -5,20 +5,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>java</groupId>
-    <artifactId>_21_Java增强</artifactId>
+    <artifactId>_21_java_plus</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
                 <configuration>
-                    <source>6</source>
-                    <target>6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+<<<<<<< HEAD
     <dependencies>
         <dependency>
             <groupId>01-映射</groupId>
@@ -34,5 +45,7 @@
         </dependency>
     </dependencies>
 
+=======
+>>>>>>> ece945bf3a2a2066a04a6f5893c69586f1b57399
 
 </project>

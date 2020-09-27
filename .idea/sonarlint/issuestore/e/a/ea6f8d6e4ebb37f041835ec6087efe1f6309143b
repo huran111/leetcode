@@ -1,0 +1,17 @@
+
+E
+java:S1066#"/Merge this if statement with the enclosing one.(Ş®ş
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¶Ãù¼
+A
+java:S3010"&Remove this assignment of "zooKeeper".(©¬ĞÍùÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Ôñ®²ûÿÿÿÿ
+<
+java:S10755"&Remove this hard-coded path-delimiter.(í¬¯æ
+L
+java:S26965"6Make the enclosing method "static" or remove this set.(í¬¯æ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(°‘Õ
+M	java:S106J"9Replace this use of System.out or System.err by a logger.(‹¸‡\
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(Òª€ıÿÿÿÿ
+Z
+java:S2147d"DCombine this catch with the one at line 98, which has the same body.(ä ¹€

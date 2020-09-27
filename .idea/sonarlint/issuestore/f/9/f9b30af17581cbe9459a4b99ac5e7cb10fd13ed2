@@ -1,0 +1,29 @@
+
+Y
+java:S1128"CRemove this unused import 'java.util.concurrent.CompletableFuture'.(ôŞä´
+V
+java:S1128";Remove this unused import 'org.apache.zookeeper.data.Stat'.(ä˜ ©şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¯¥Üõüÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(£¨¼º
+X
+java:S1117&"BRename "countDownLatch" which hides the field declared at line 24.(ã³ÕØ
+Q
+java:S2696'"6Make the enclosing method "static" or remove this set.(ÎÅ€£ıÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(ÓÕ¥¥øÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(·µ¸‚
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ãÙÅÁşÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¤£Å
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ãÙÅÁşÿÿÿÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(¤£Å
+Z
+java:S2147S"DCombine this catch with the one at line 81, which has the same body.(ä ¹€
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(ãÙÅÁşÿÿÿÿ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(¤£Å
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(ãÙÅÁşÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(¤£Å
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(‚İÉÒıÿÿÿÿ
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(¢Ëé•ÿÿÿÿÿ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(ç†ÌÙ
+R
+java:S2696‚"6Make the enclosing method "static" or remove this set.(—ëÛÿÿÿÿÿ
+O	java:S106‡"9Replace this use of System.out or System.err by a logger.(ÛéÔ
