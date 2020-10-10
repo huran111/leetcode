@@ -17,6 +17,7 @@ public class DisruptorTest {
     public static void main(String[] args) {
         int ringBufferSize = 65536;
         final Disruptor<Data> dataDisruptor = new Disruptor<Data>(new EventFactory<Data>() {
+            @Override
             public Data newInstance() {
                 return new Data();
             }
