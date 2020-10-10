@@ -5,6 +5,7 @@ import com.lmax.disruptor.dsl.Disruptor;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: leetcode
@@ -29,6 +30,11 @@ public class TradePushLisher implements Runnable {
         //新的提交方式
         for (int i = 0; i < PUBLISH_COUNT; i++) {
             disruptor.publishEvent(new TradeEventTranslator());
+        }
+        try {
+            TimeUnit.MILLISECONDS.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         System.out.println("countDown:" + System.currentTimeMillis());
         countDownLatch.countDown();
