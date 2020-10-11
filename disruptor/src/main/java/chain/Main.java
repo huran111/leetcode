@@ -1,4 +1,4 @@
-package demo04;
+package chain;
 
 import com.lmax.disruptor.BusySpinWaitStrategy;
 import com.lmax.disruptor.EventFactory;
