@@ -1,7 +1,7 @@
 package demo02;
 
 import com.lmax.disruptor.EventFactory;
-import com.sun.org.apache.xpath.internal.operations.Or;
+
 
 /**
  * @program: leetcode
@@ -10,7 +10,7 @@ import com.sun.org.apache.xpath.internal.operations.Or;
  * @create: 2020-09-26 13:19
  */
 public class OrderEventFactory implements EventFactory<OrderEvent> {
-
+    @Override
     public OrderEvent newInstance() {
         return new OrderEvent(); //返回空的消息 数据对象<Event>
     }

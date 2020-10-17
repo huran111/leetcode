@@ -1,6 +1,5 @@
 package demo01;
 
-import javafx.event.Event;
 
 import java.io.Serializable;
 

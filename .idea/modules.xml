@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis-spring/redis-spring.iml" filepath="$PROJECT_DIR$/redis/redis-spring/redis-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/习题/习题.iml" filepath="$PROJECT_DIR$/习题/习题.iml" />
     </modules>
   </component>

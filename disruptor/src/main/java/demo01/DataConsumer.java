@@ -15,6 +15,7 @@ public class DataConsumer implements EventHandler<Data> {
     public DataConsumer(){
         this.startTime=System.currentTimeMillis();
     }
+    @Override
     public void onEvent(Data data, long l, boolean b) throws Exception {
         i++;
         if(i==Constant.EVENT_NUM_OHM){

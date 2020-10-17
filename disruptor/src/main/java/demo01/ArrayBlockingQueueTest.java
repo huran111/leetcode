@@ -9,10 +9,12 @@ import java.util.concurrent.ArrayBlockingQueue;
  * @create: 2020-09-26 12:42
  */
 public class ArrayBlockingQueueTest {
+
     public static void main(String[] args) {
         final ArrayBlockingQueue queue = new ArrayBlockingQueue(100000000);
         final long startTime = System.currentTimeMillis();
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 long i = 0;
                 while (i < Constant.EVENT_NUM_OHM) {
@@ -27,6 +29,7 @@ public class ArrayBlockingQueueTest {
             }
         }).start();
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 int k=0;
                 while (k<Constant.EVENT_NUM_OHM){
@@ -45,3 +48,4 @@ public class ArrayBlockingQueueTest {
 
     }
 }
+

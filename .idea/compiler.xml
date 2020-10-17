@@ -10,11 +10,12 @@
         <module name="_02_复杂度" />
         <module name="_21_Java增强" />
         <module name="pattern" />
-        <module name="disruptor" />
+        <module name="redis-spring" />
+        <module name="_04_链表" />
         <module name="_28_zookeeper" />
         <module name="_03_线性表" />
         <module name="习题" />
-        <module name="_04_链表" />
+        <module name="disruptor" />
         <module name="_01映射" />
       </profile>
     </annotationProcessing>
@@ -25,10 +26,17 @@
       <module name="_04_链表" target="1.8" />
       <module name="_21_Java增强" target="1.8" />
       <module name="_28_zookeeper" target="1.8" />
-      <module name="disruptor" target="1.8" />
+      <module name="disruptor" target="11" />
       <module name="jwt" target="1.8" />
       <module name="pattern" target="1.5" />
+      <module name="redis" target="1.5" />
+      <module name="redis-spring" target="1.8" />
       <module name="习题" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis-spring" options="-parameters" />
+    </option>
   </component>
 </project>

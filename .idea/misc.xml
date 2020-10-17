@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/disruptor/pom.xml" />
         <option value="$PROJECT_DIR$/java8实战/pom.xml" />
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/redis-spring/pom.xml" />
       </list>
     </option>
   </component>
