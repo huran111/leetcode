@@ -17,12 +17,12 @@
         <option value="$PROJECT_DIR$/_04_链表/pom.xml" />
         <option value="$PROJECT_DIR$/习题/pom.xml" />
         <option value="$PROJECT_DIR$/_28_zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/pattern/pom.xml" />
-        <option value="$PROJECT_DIR$/disruptor/pom.xml" />
         <option value="$PROJECT_DIR$/java8实战/pom.xml" />
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/redis/redis-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/_05_二叉堆/pom.xml" />
+        <option value="$PROJECT_DIR$/_06_排序/pom.xml" />
       </list>
     </option>
   </component>

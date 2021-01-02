@@ -6,13 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/_02_复杂度/_02_复杂度.iml" filepath="$PROJECT_DIR$/_02_复杂度/_02_复杂度.iml" />
       <module fileurl="file://$PROJECT_DIR$/_03_线性表/_03_线性表.iml" filepath="$PROJECT_DIR$/_03_线性表/_03_线性表.iml" />
       <module fileurl="file://$PROJECT_DIR$/_04_链表/_04_链表.iml" filepath="$PROJECT_DIR$/_04_链表/_04_链表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_二叉堆/_05_二叉堆.iml" filepath="$PROJECT_DIR$/_05_二叉堆/_05_二叉堆.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_排序/_06_排序.iml" filepath="$PROJECT_DIR$/_06_排序/_06_排序.iml" />
       <module fileurl="file://$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" filepath="$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" />
       <module fileurl="file://$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" filepath="$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/disruptor/disruptor.iml" filepath="$PROJECT_DIR$/disruptor/disruptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redis/redis-spring/redis-spring.iml" filepath="$PROJECT_DIR$/redis/redis-spring/redis-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/习题/习题.iml" filepath="$PROJECT_DIR$/习题/习题.iml" />
     </modules>
   </component>
