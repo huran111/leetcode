@@ -82,6 +82,7 @@ public class LinkedList<E> extends AbstractList<E> {
      */
     @Override
     public E remove(int index) {
+        rangeCheck(index);
         //默认为first节点
         Node<E> node = first;
         //删除0位置

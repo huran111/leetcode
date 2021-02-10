@@ -14,6 +14,12 @@ public class Main {
         list.add(30);
 
         System.out.println(list.toString());
+        LinkedList02<Integer> list2=new LinkedList02<>();
+        list2.add(20);
+        list2.add(0,10);
+        list2.remove(1);
+        System.out.println(list2.size);
+        System.out.println(list2.toString());
 
     }
 

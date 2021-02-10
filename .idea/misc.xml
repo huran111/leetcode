@@ -23,6 +23,11 @@
         <option value="$PROJECT_DIR$/redis/redis-spring/pom.xml" />
         <option value="$PROJECT_DIR$/_05_二叉堆/pom.xml" />
         <option value="$PROJECT_DIR$/_06_排序/pom.xml" />
+        <option value="$PROJECT_DIR$/_07_并查集/pom.xml" />
+        <option value="$PROJECT_DIR$/_08_图/pom.xml" />
+        <option value="$PROJECT_DIR$/_09_栈/pom.xml" />
+        <option value="$PROJECT_DIR$/_10_队列/pom.xml" />
+        <option value="$PROJECT_DIR$/_11_二叉树/pom.xml" />
       </list>
     </option>
   </component>

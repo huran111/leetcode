@@ -1,5 +1,6 @@
 package 链表;
 
+
 /**
  * @program: leetcode
  * @description:
@@ -20,7 +21,7 @@ public class _206_反转链表 {
         }
     }
 
-    // 5 4 3 2 1
+    // 5 4 3 2 1  给你一个链表头 ，返回一个新的链表头
     public ListNode reverseList(ListNode hand) {
         if (hand == null || hand.next == null) {
             return hand;
@@ -36,7 +37,7 @@ public class _206_反转链表 {
             return hand;
         }
         ListNode newHead = null;
-        while (hand != null) {
+        while (hand != null) {//注意 这个hand不是虚拟头节点
             final ListNode temp = hand.next;
             hand.next = newHead;
             newHead = hand;
