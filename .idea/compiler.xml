@@ -10,6 +10,7 @@
         <module name="_07_并查集" />
         <module name="_03_线性表" />
         <module name="_12_红黑树" />
+        <module name="_Trie_树" />
         <module name="_28_zookeeper" />
         <module name="_04_链表" />
         <module name="_05_二叉堆" />
@@ -45,6 +46,7 @@
       <module name="_15_优先级" target="8" />
       <module name="_21_Java增强" target="1.8" />
       <module name="_28_zookeeper" target="1.8" />
+      <module name="_Trie_树" target="8" />
       <module name="disruptor" target="11" />
       <module name="jwt" target="1.8" />
       <module name="pattern" target="1.5" />
