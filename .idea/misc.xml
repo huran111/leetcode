@@ -28,6 +28,10 @@
         <option value="$PROJECT_DIR$/_09_栈/pom.xml" />
         <option value="$PROJECT_DIR$/_10_队列/pom.xml" />
         <option value="$PROJECT_DIR$/_11_二叉树/pom.xml" />
+        <option value="$PROJECT_DIR$/_12_红黑树/pom.xml" />
+        <option value="$PROJECT_DIR$/_13_集合/pom.xml" />
+        <option value="$PROJECT_DIR$/_14_映射/pom.xml" />
+        <option value="$PROJECT_DIR$/_15_优先级/pom.xml" />
       </list>
     </option>
   </component>

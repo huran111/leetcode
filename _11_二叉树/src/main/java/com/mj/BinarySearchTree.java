@@ -91,13 +91,15 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         return node(element) != null;
     }
 
+    /**
+     * 删除节点
+     * @param node
+     */
     private void remove(Node<E> node) {
         if (node == null) {
             return;
         }
-
         size--;
-
         if (node.hasTwoChildren()) { // 度为2的节点
             // 找到后继节点
             Node<E> s = successor(node);
@@ -218,17 +220,18 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 前序遍历
+     *
      * @param visitor
      */
     public void preorder(Visitor<E> visitor) {
-        if (visitor == null){
+        if (visitor == null) {
             return;
         }
         preorder(root, visitor);
     }
 
     private void preorder(Node<E> node, Visitor<E> visitor) {
-        if (node == null || visitor.stop){
+        if (node == null || visitor.stop) {
             return;
         }
 
@@ -236,8 +239,10 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         preorder(node.left, visitor);
         preorder(node.right, visitor);
     }
+
     /**
      * 中序遍历
+     *
      * @param visitor
      */
     public void inorder(Visitor<E> visitor) {
@@ -249,11 +254,12 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 中序遍历
+     *
      * @param node
      * @param visitor
      */
     private void inorder(Node<E> node, Visitor<E> visitor) {
-        if (node == null || visitor.stop){
+        if (node == null || visitor.stop) {
             return;
         }
 
@@ -267,6 +273,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 后续遍历
+     *
      * @param visitor
      */
     public void postorder(Visitor<E> visitor) {
@@ -278,6 +285,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 后续遍历
+     *
      * @param node
      * @param visitor
      */
@@ -296,6 +304,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 层序遍历
+     *
      * @param visitor
      */
     public void levelOrder(Visitor<E> visitor) {
@@ -320,36 +329,53 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         }
     }
 
+    /**
+     * 判断是否是完全二叉树
+     *
+     * @return
+     */
     public boolean isComplete() {
-        if (root == null) return false;
-
+        if (root == null) {
+            return false;
+        }
         Queue<Node<E>> queue = new LinkedList<>();
         queue.offer(root);
-
-        boolean leaf = false;
+        boolean leaf = false;//是否是叶子节点
         while (!queue.isEmpty()) {
             Node<E> node = queue.poll();
-            if (leaf && !node.isLeaf()){
+            //!node.isLeaf() 不是叶子
+            if (leaf && !node.isLeaf()) {
                 return false;
             }
-
             if (node.left != null) {
                 queue.offer(node.left);
             } else if (node.right != null) { // node.left == null && node.right != null
+                //来到这说明node.left==null
                 return false;
             }
-
             if (node.right != null) {
                 queue.offer(node.right);
-            } else { // node.right == null
+            } else { // node.right == null 则后边全部是叶子节点
                 leaf = true;
             }
         }
-
         return true;
     }
 
-//	public boolean isComplete() {
+    //反转一颗二叉树 -前序遍历
+    Node invertTree(Node root) {
+        if (root == null) {
+            return root;
+        }
+        Node temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+        invertTree(root.left);
+        invertTree(root.right);
+        return root;
+    }
+
+    //	public boolean isComplete() {
 //		if (root == null) return false;
 //		
 //		Queue<Node<E>> queue = new LinkedList<>();
@@ -377,7 +403,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 //	}
     //非递归 方式计算树的高度
     public int height() {
-        if (root == null){
+        if (root == null) {
             return 0;
         }
         // 树的高度
@@ -410,12 +436,12 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 获取某一个节点高度
+     *
      * @param node
-     * @return
-     * 某个节点的高度取决于它左右子树最大的高度+1
+     * @return 某个节点的高度取决于它左右子树最大的高度+1
      */
     private int height(Node<E> node) {
-        if (node == null){
+        if (node == null) {
             return 0;
         }
         return 1 + Math.max(height(node.left), height(node.right));
@@ -430,6 +456,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 
     /**
      * 打印
+     *
      * @param node
      * @param sb
      * @param prefix
@@ -465,10 +492,17 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         }
     }
 
+    /**
+     * 前驱节点
+     *
+     * @param node
+     * @return
+     */
     @SuppressWarnings("unused")
     private Node<E> predecessor(Node<E> node) {
-        if (node == null) return null;
-
+        if (node == null) {
+            return null;
+        }
         // 前驱节点在左子树当中（left.right.right.right....）
         Node<E> p = node.left;
         if (p != null) {
@@ -488,9 +522,16 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
         return node.parent;
     }
 
+    /**
+     * 后继节点
+     *
+     * @param node
+     * @return
+     */
     private Node<E> successor(Node<E> node) {
-        if (node == null) return null;
-
+        if (node == null) {
+            return null;
+        }
         // 前驱节点在左子树当中（right.left.left.left....）
         Node<E> p = node.right;
         if (p != null) {
@@ -499,12 +540,10 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
             }
             return p;
         }
-
         // 从父节点、祖父节点中寻找前驱节点
         while (node.parent != null && node == node.parent.right) {
             node = node.parent;
         }
-
         return node.parent;
     }
 

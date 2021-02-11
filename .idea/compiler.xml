@@ -9,6 +9,7 @@
         <module name="jwt" />
         <module name="_07_并查集" />
         <module name="_03_线性表" />
+        <module name="_12_红黑树" />
         <module name="_28_zookeeper" />
         <module name="_04_链表" />
         <module name="_05_二叉堆" />
@@ -17,10 +18,13 @@
         <module name="_11_二叉树" />
         <module name="_02_复杂度" />
         <module name="_08_图" />
+        <module name="_13_集合" />
+        <module name="_14_映射" />
         <module name="_06_排序" />
         <module name="_09_栈" />
         <module name="习题" />
         <module name="_01映射" />
+        <module name="_15_优先级" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +39,10 @@
       <module name="_09_栈" target="8" />
       <module name="_10_队列" target="8" />
       <module name="_11_二叉树" target="8" />
+      <module name="_12_红黑树" target="8" />
+      <module name="_13_集合" target="8" />
+      <module name="_14_映射" target="8" />
+      <module name="_15_优先级" target="8" />
       <module name="_21_Java增强" target="1.8" />
       <module name="_28_zookeeper" target="1.8" />
       <module name="disruptor" target="11" />

@@ -13,6 +13,10 @@
       <module fileurl="file://$PROJECT_DIR$/_09_栈/_09_栈.iml" filepath="$PROJECT_DIR$/_09_栈/_09_栈.iml" />
       <module fileurl="file://$PROJECT_DIR$/_10_队列/_10_队列.iml" filepath="$PROJECT_DIR$/_10_队列/_10_队列.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11_二叉树/_11_二叉树.iml" filepath="$PROJECT_DIR$/_11_二叉树/_11_二叉树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12_红黑树/_12_红黑树.iml" filepath="$PROJECT_DIR$/_12_红黑树/_12_红黑树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13_集合/_13_集合.iml" filepath="$PROJECT_DIR$/_13_集合/_13_集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_14_映射/_14_映射.iml" filepath="$PROJECT_DIR$/_14_映射/_14_映射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15_优先级/_15_优先级.iml" filepath="$PROJECT_DIR$/_15_优先级/_15_优先级.iml" />
       <module fileurl="file://$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" filepath="$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" />
       <module fileurl="file://$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" filepath="$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
