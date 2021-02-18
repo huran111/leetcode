@@ -74,7 +74,9 @@ public class Trie<V> {
         // 找到最后一个节点
         Node<V> node = node(key);
         // 如果不是单词结尾，不用作任何处理
-        if (node == null || !node.word) return null;
+        if (node == null || !node.word) {
+            return null;
+        }
         size--;
         V oldValue = node.value;
 
@@ -89,7 +91,9 @@ public class Trie<V> {
         Node<V> parent = null;
         while ((parent = node.parent) != null) {
             parent.children.remove(node.character);
-            if (parent.word || !parent.children.isEmpty()) break;
+            if (parent.word || !parent.children.isEmpty()) {
+                break;
+            }
             node = parent;
         }
 
@@ -102,15 +106,15 @@ public class Trie<V> {
 
     private Node<V> node(String key) {
         keyCheck(key);
-
         Node<V> node = root;
         int len = key.length();
         for (int i = 0; i < len; i++) {
-            if (node == null || node.children == null || node.children.isEmpty()) return null;
+            if (node == null || node.children == null || node.children.isEmpty()) {
+                return null;
+            }
             char c = key.charAt(i);
             node = node.children.get(c);
         }
-
         return node;
     }
 

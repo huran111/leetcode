@@ -42,7 +42,6 @@ public class HashMap<K, V> implements Map<K, V> {
 	@Override
 	public V put(K key, V value) {
 		resize();
-		
 		int index = index(key);
 		// 取出index位置的红黑树根节点
 		Node<K, V> root = table[index];
@@ -225,7 +224,6 @@ public class HashMap<K, V> implements Map<K, V> {
 		Queue<Node<K, V>> queue = new LinkedList<>();
 		for (int i = 0; i < oldTable.length; i++) {
 			if (oldTable[i] == null) continue;
-			
 			queue.offer(oldTable[i]);
 			while (!queue.isEmpty()) {
 				Node<K, V> node = queue.poll();

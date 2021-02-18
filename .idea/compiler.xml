@@ -13,8 +13,10 @@
         <module name="_Trie_树" />
         <module name="_28_zookeeper" />
         <module name="_04_链表" />
+        <module name="_22_JVM" />
         <module name="_05_二叉堆" />
         <module name="_21_Java增强" />
+        <module name="_17_AVL树" />
         <module name="_10_队列" />
         <module name="_11_二叉树" />
         <module name="_02_复杂度" />
@@ -24,6 +26,7 @@
         <module name="_06_排序" />
         <module name="_09_栈" />
         <module name="习题" />
+        <module name="_16_哈希表" />
         <module name="_01映射" />
         <module name="_15_优先级" />
       </profile>
@@ -44,7 +47,10 @@
       <module name="_13_集合" target="8" />
       <module name="_14_映射" target="8" />
       <module name="_15_优先级" target="8" />
+      <module name="_16_哈希表" target="8" />
+      <module name="_17_AVL树" target="8" />
       <module name="_21_Java增强" target="1.8" />
+      <module name="_22_JVM" target="8" />
       <module name="_28_zookeeper" target="1.8" />
       <module name="_Trie_树" target="8" />
       <module name="disruptor" target="11" />
