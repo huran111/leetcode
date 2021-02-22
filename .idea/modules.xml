@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" filepath="$PROJECT_DIR$/_21_Java增强/_21_Java增强.iml" />
       <module fileurl="file://$PROJECT_DIR$/_22_JVM/_22_JVM.iml" filepath="$PROJECT_DIR$/_22_JVM/_22_JVM.iml" />
       <module fileurl="file://$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" filepath="$PROJECT_DIR$/_28_zookeeper/_28_zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_29_Effective_java/_29_Effective_java.iml" filepath="$PROJECT_DIR$/_29_Effective_java/_29_Effective_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/_Trie_树/_Trie_树.iml" filepath="$PROJECT_DIR$/_Trie_树/_Trie_树.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/leetcode.iml" filepath="$PROJECT_DIR$/.idea/leetcode.iml" />
