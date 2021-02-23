@@ -32,7 +32,7 @@ public class LocalVariableTest {
     }
 
     private void test02() {
-        Date date = new Date();
+        new Date();
         double weight = 23.43;
         String name1 = "huran";
     }
