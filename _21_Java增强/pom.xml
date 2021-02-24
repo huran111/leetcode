@@ -7,13 +7,20 @@
     <groupId>java</groupId>
     <artifactId>_21_java_plus</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.projectreactor/reactor-core -->
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>3.4.3</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -29,23 +36,4 @@
             </plugin>
         </plugins>
     </build>
-<<<<<<< HEAD
-    <dependencies>
-        <dependency>
-            <groupId>01-映射</groupId>
-            <artifactId>01-映射</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-
-=======
->>>>>>> ece945bf3a2a2066a04a6f5893c69586f1b57399
-
 </project>
