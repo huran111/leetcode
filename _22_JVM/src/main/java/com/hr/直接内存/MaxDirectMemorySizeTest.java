@@ -11,6 +11,8 @@ import java.lang.reflect.Field;
  * @create: 2021-02-24 20:55
  */
 public class MaxDirectMemorySizeTest {
+ 
+
     public static void main(String[] args) {
         Field declaredField = Unsafe.class.getDeclaredFields()[0];
 
